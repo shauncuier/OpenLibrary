@@ -1,5 +1,5 @@
 import React from 'react';
-import {BannerImg} from '../../assets/books.jpg';
+import BannerImg from '../../assets/book1.png';
 
 const Banner = () => {
     return (
@@ -8,8 +8,8 @@ const Banner = () => {
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                 <button className='btn btn-primary'>Load More</button>
             </div>
-            <div>
-                <img src={BannerImg} alt="" />
+            <div className='h-[668px]'>
+                <img className='h-full' src={BannerImg} alt="" />
             </div>
         </div>
     );
